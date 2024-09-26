@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f5f8;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.contenedor_mes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: calc(33.3% - 15px);
+    padding: 20px 50px 5px 50px;
+    color: #c0c0c0;
+    font-size: 17px;  
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #e91e63;
+}
+
+.contenedor_fecha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 15px 0;
+    color: #e91e63;
+    font-size: 25px;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    color: #e0e0e0;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+header h1 {
+    font-size: 36px;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.schedule {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e91e63;
+    color: #ffffff;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    position: relative;
+    margin: 0 10px 0 10px;
+}
+
+select {
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 120%;
+    padding: 0 5px 0 5px;
+    color: #e91e63;
+}
+
+select option {
+    font-weight: bold;
+    font-size: 14px;
+}
+.time {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.time1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.class {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button {
+    width: 40%;
+    padding: 15px;
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 3px 0px 0 110px;
+}
+
+button:hover {
+    background-color: #c62856;
+
+}
+
+
+footer {
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 14px;
+    margin-top: 20px;
+}
